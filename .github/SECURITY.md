@@ -26,6 +26,7 @@ We aim to respond to all security reports within **2 business days** and provide
 We follow a responsible discolure process:
 
 1)We will work with you to valisate and resolve the vulnerability.
+
 2)Once the issiue is resolved, we will publicly disclose the details of the vulnerability
 
 ---

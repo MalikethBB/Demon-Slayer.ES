@@ -1,0 +1,43 @@
+2025-11-19 21:25:13.281 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 21:25:13.285 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 21:25:13.286 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 21:25:13.286 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 21:25:13.286 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:13.462 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:13.466 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:13.466 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:13.466 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:13.467 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:35.045 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:35.048 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:35.048 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:35.049 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:35.050 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:49.050 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:49.053 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:49.053 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:49.054 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:02:49.054 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.615 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.618 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.618 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.618 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.618 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:38.622 [main] INFO  com.Person - Creating a new Person: Tanjiro aged 15
+2025-11-19 22:08:38.623 [main] INFO  com.Person - Creating a new Person: Nezuko aged -5
+2025-11-19 22:08:38.623 [main] ERROR com.Person - Age cannot be a negative number. Provided age: -5
+2025-11-19 22:08:54.638 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:54.641 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:54.641 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:54.642 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:54.642 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:08:54.647 [main] INFO  com.Person - Creating a new Person: Tanjiro aged 15
+2025-11-19 22:08:54.648 [main] INFO  com.Person - Creating a new Person: Nezuko aged 5
+2025-11-19 22:09:04.944 [main] DEBUG com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:09:04.948 [main] INFO  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:09:04.949 [main] WARN  com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:09:04.949 [main] ERROR com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:09:04.949 [main] FATAL com.example.demonslayer.App - We've just greeted the user!
+2025-11-19 22:09:04.956 [main] INFO  com.Person - Creating a new Person: Tanjiro aged 15
+2025-11-19 22:09:04.956 [main] INFO  com.Person - Creating a new Person: Nezuko aged -5
+2025-11-19 22:09:04.957 [main] ERROR com.Person - Age cannot be a negative number. Provided age: -5

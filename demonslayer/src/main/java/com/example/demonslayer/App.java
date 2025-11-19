@@ -3,10 +3,7 @@ package com.example.demonslayer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- * Hello world!
- *
- */
+import com.Person;
 
 public class App 
 {
@@ -21,5 +18,8 @@ public class App
         logger.warn("We've just greeted the user!");
         logger.error("We've just greeted the user!");
         logger.fatal("We've just greeted the user!");
+
+        Person tanjiro = new Person("Tanjiro", 15);
+        Person nezuko = new Person("Nezuko", -5);
     }
 }

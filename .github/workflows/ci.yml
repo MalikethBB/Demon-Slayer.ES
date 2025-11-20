@@ -26,7 +26,7 @@ jobs:
 
       # Build project
       - name: Build with Maven
-        run: mvn -B package --file demonslayer/pom.xml
+        run: mvn -B -U package --file demonslayer/pom.xml
 
       # Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       - name: Update dependency graph
@@ -36,11 +36,11 @@ jobs:
 
       # Build and generate Javadoc
       - name: Build and generate Javadoc
-        run: mvn -B clean verify javadoc:javadoc --file demonslayer/pom.xml
+        run: mvn -B -U clean verify javadoc:javadoc --file demonslayer/pom.xml
 
       # Upload Javadoc artifact
       - name: Upload Javadoc artifact
         uses: actions/upload-artifact@v4
         with:
-          name: javadoc
+          name: javadoc   
           path: target/site/apidocs

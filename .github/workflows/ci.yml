@@ -42,5 +42,6 @@ jobs:
       - name: Upload Javadoc artifact
         uses: actions/upload-artifact@v4
         with:
-          name: javadoc   
-          path: target/site/apidocs
+          name: javadoc
+          path: demonslayer/target/site/apidocs
+

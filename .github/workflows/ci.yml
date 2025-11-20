@@ -34,13 +34,4 @@ jobs:
         with:
           directory: demonslayer
 
-      # Build and generate Javadoc
-      - name: Build and generate Javadoc
-        run: mvn -B -U clean verify javadoc:javadoc --file demonslayer/pom.xml
-
-      # Upload Javadoc artifact
-      - name: Upload Javadoc artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: javadoc   
-          path: target/site/apidocs
+          

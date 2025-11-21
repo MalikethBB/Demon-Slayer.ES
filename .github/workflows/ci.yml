@@ -43,5 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: javadoc
-          path: demonslayer/target/site/apidocs
-
+          path: demonslayer/target/reports/apidocs

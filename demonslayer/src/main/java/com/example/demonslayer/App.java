@@ -34,6 +34,9 @@ public final class App {
         LOGGER.fatal("We've just greeted the user!");
 
         Person tanjiro = new Person("Tanjiro", TANJIRO_AGE);
-        Person nezuko = new Person("Nezuko", -NEZUKO_AGE);
+        Person nezuko = new Person("Nezuko", NEZUKO_AGE);
+
+        tanjiro.intro();
+        nezuko.intro();
     }
 }

@@ -42,8 +42,8 @@ jobs:
         with:
           name: lint-report
           path: |
-            demonslayer/target/apidocs/checkstyle.html
-            demonslayer/target/apidocs/spotbugs.html  
+            demonslayer/target/reports/checkstyle.html
+            demonslayer/target/spotbugs/spotbugs.html
 
       # Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       - name: Update dependency graph

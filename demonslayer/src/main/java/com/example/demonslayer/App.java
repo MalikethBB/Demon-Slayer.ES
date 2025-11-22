@@ -5,21 +5,38 @@ import org.apache.logging.log4j.Logger;
 
 import com.Person;
 
-public class App 
-{
-    private static final Logger logger=LogManager.getLogger(App.class);
+public final class App {
 
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        logger.trace("We've just greeted the user!");
-        logger.debug("We've just greeted the user!");
-        logger.info("We've just greeted the user!");
-        logger.warn("We've just greeted the user!");
-        logger.error("We've just greeted the user!");
-        logger.fatal("We've just greeted the user!");
+    private App() {
+    }
 
-        Person tanjiro = new Person("Tanjiro", 15);
-        Person nezuko = new Person("Nezuko", -5);
+    /** LOGGER for App class. */
+    private static final Logger LOGGER = LogManager.getLogger(App.class);
+
+    /** Constant for Tanjiro's age. */
+    private static final int TANJIRO_AGE = 15;
+
+    /** Constant for Nezuko's age. */
+    private static final int NEZUKO_AGE = -5;
+
+    /**
+     * Entry point for the application.
+     *
+     * @param args command line arguments
+     */
+    public static void main(final String[] args) {
+        System.out.println("Hello World!");
+        LOGGER.trace("We've just greeted the user!");
+        LOGGER.debug("We've just greeted the user!");
+        LOGGER.info("We've just greeted the user!");
+        LOGGER.warn("We've just greeted the user!");
+        LOGGER.error("We've just greeted the user!");
+        LOGGER.fatal("We've just greeted the user!");
+
+        Person tanjiro = new Person("Tanjiro", TANJIRO_AGE);
+        Person nezuko = new Person("Nezuko", NEZUKO_AGE);
+
+        tanjiro.intro();
+        nezuko.intro();
     }
 }
